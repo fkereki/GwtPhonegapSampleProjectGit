@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns:gap="http://phonegap.com/ns/1.0"
+    id="com.kereki.gwtphonegapsample"
+    version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets" >
+
+    <name>Gwt+PhoneGap</name>
+    <description>A sample project using GWT and PhoneGap together.</description>
+
+    <author email="fkereki@gmail.com" >
+        Federico Kereki 
+    </author>
+
+    <feature name="http://api.phonegap.com/1.0/geolocation" />
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <feature name="http://api.phonegap.com/1.0/notification" />
+
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+
+    <icon src="icon.png" />
+
+    <gap:splash src="splash.png" />
+</widget>
